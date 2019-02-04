@@ -47,7 +47,8 @@ public class ConnectionPoolTest {
                 LOGGER.error(e);
             } catch (InterruptedException e) {
                 LOGGER.error(e);
-                throw new RuntimeException(e);
+                Thread.currentThread().interrupt();
+                throw new IllegalStateException(e);
             }
         }));
         executorService.awaitTermination(5L, TimeUnit.SECONDS);
