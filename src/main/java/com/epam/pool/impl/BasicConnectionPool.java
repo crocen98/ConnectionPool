@@ -85,13 +85,6 @@ public class BasicConnectionPool implements ConnectionPool {
         }
     }
 
-    private Class<?>[] initClassArray(Object[] args) {
-        Class<?>[] classes = new Class[args.length];
-        for (int i = 0; i < args.length; ++i) {
-            classes[i] = args[i].getClass();
-        }
-        return classes;
-    }
 
   private InvocationHandler getHandler() throws SQLException {
       final BasicConnectionPool basicConnectionPool = this;
@@ -105,13 +98,9 @@ public class BasicConnectionPool implements ConnectionPool {
                   connectionPool.releaseConnection((Connection) proxy);
                   return null;
               } else {
-                  Class<?>[] classes = args != null ? initClassArray(args) : new Class[]{};
-                  Class connectionClass = connection.getClass();
-                  Method connectionMethod = connectionClass.getMethod(methodName, classes);
-                  return connectionMethod.invoke(connection, args);
+                  return method.invoke(connection,args);
               }
           }
       };
-
   }
 }

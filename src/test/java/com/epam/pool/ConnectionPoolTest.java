@@ -23,11 +23,13 @@ import java.util.stream.IntStream;
 @RunWith(JUnit4.class)
 public class ConnectionPoolTest {
     private static final Logger LOGGER = LogManager.getLogger(ConnectionPoolTest.class);
-    private static final int N_THREADS = 10;
-    private static final int POOL_CAPACITY = 5;
+    private static final int N_THREADS = 37;
+    private static final int POOL_CAPACITY = 2
+            ;
     private static final String JDBCDRIVER_CLASS = "org.hsqldb.jdbc.JDBCDriver";
     private static final String DB_URL = "jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1";
     private static final String DB_USER = "sa";
+
     @Test
     public void shouldGetConnection() throws InterruptedException {
         ConnectionPool connectionPool = Mockito.spy(new

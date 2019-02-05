@@ -1,40 +1,148 @@
-2019-02-04 23:48:34.596 [pool-2-thread-9] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.596 [pool-2-thread-1] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.596 [pool-2-thread-7] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.596 [pool-2-thread-8] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.596 [pool-2-thread-10] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.596 [pool-2-thread-5] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.596 [pool-2-thread-6] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.596 [pool-2-thread-2] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.596 [pool-2-thread-3] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.596 [pool-2-thread-4] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
-2019-02-04 23:48:34.943 [pool-2-thread-9] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:34.943 [pool-2-thread-2] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:34.943 [pool-2-thread-3] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:34.944 [pool-2-thread-5] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:34.944 [pool-2-thread-7] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:35.044 [pool-2-thread-9] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1901550197
-2019-02-04 23:48:35.044 [pool-2-thread-2] INFO  com.epam.pool.ConnectionPoolTest - release connection: 712258990
-2019-02-04 23:48:35.044 [pool-2-thread-3] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1565400773
-2019-02-04 23:48:35.045 [pool-2-thread-7] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1344951233
-2019-02-04 23:48:35.045 [pool-2-thread-5] INFO  com.epam.pool.ConnectionPoolTest - release connection: 367526480
-2019-02-04 23:48:35.045 [pool-2-thread-9] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
-2019-02-04 23:48:35.045 [pool-2-thread-2] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
-2019-02-04 23:48:35.045 [pool-2-thread-3] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
-2019-02-04 23:48:35.045 [pool-2-thread-5] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
-2019-02-04 23:48:35.045 [pool-2-thread-7] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
-2019-02-04 23:48:35.045 [pool-2-thread-10] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:35.045 [pool-2-thread-4] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:35.045 [pool-2-thread-6] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:35.046 [pool-2-thread-1] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:35.045 [pool-2-thread-8] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
-2019-02-04 23:48:35.147 [pool-2-thread-4] INFO  com.epam.pool.ConnectionPoolTest - release connection: 712258990
-2019-02-04 23:48:35.147 [pool-2-thread-1] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1344951233
-2019-02-04 23:48:35.147 [pool-2-thread-10] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1901550197
-2019-02-04 23:48:35.147 [pool-2-thread-6] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1565400773
-2019-02-04 23:48:35.147 [pool-2-thread-8] INFO  com.epam.pool.ConnectionPoolTest - release connection: 367526480
-2019-02-04 23:48:35.148 [pool-2-thread-4] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
-2019-02-04 23:48:35.148 [pool-2-thread-1] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
-2019-02-04 23:48:35.148 [pool-2-thread-10] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
-2019-02-04 23:48:35.148 [pool-2-thread-6] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
-2019-02-04 23:48:35.149 [pool-2-thread-8] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:44.964 [pool-2-thread-11] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-12] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-13] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.962 [pool-2-thread-8] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-37] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.962 [pool-2-thread-24] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-28] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-6] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-1] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-4] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.964 [pool-2-thread-14] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-36] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.962 [pool-2-thread-21] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.962 [pool-2-thread-20] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.962 [pool-2-thread-29] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-3] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-25] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-16] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-17] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-33] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-7] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-9] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-2] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-10] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.963 [pool-2-thread-5] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.962 [pool-2-thread-32] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.969 [pool-2-thread-15] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.969 [pool-2-thread-18] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.969 [pool-2-thread-19] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.970 [pool-2-thread-22] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.971 [pool-2-thread-26] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.971 [pool-2-thread-23] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.972 [pool-2-thread-27] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.972 [pool-2-thread-30] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.973 [pool-2-thread-31] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.974 [pool-2-thread-34] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:44.974 [pool-2-thread-35] INFO  com.epam.pool.ConnectionPoolTest - Try to get connection
+2019-02-05 20:14:45.277 [pool-2-thread-15] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.277 [pool-2-thread-21] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.378 [pool-2-thread-21] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:45.378 [pool-2-thread-15] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:45.380 [pool-2-thread-21] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.380 [pool-2-thread-15] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.381 [pool-2-thread-5] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.381 [pool-2-thread-30] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.483 [pool-2-thread-5] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:45.483 [pool-2-thread-5] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.484 [pool-2-thread-24] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.495 [pool-2-thread-30] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:45.495 [pool-2-thread-30] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.496 [pool-2-thread-9] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.584 [pool-2-thread-24] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:45.584 [pool-2-thread-24] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.585 [pool-2-thread-4] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.597 [pool-2-thread-9] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:45.597 [pool-2-thread-9] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.598 [pool-2-thread-19] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.687 [pool-2-thread-4] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:45.687 [pool-2-thread-4] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.688 [pool-2-thread-12] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.699 [pool-2-thread-19] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:45.699 [pool-2-thread-19] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.700 [pool-2-thread-13] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.789 [pool-2-thread-12] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:45.789 [pool-2-thread-12] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.789 [pool-2-thread-20] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.801 [pool-2-thread-13] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:45.801 [pool-2-thread-13] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.801 [pool-2-thread-1] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.890 [pool-2-thread-20] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:45.890 [pool-2-thread-20] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.891 [pool-2-thread-35] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.902 [pool-2-thread-1] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:45.902 [pool-2-thread-1] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.902 [pool-2-thread-26] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:45.991 [pool-2-thread-35] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:45.991 [pool-2-thread-35] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:45.991 [pool-2-thread-6] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.003 [pool-2-thread-26] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.003 [pool-2-thread-26] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.003 [pool-2-thread-8] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.091 [pool-2-thread-6] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:46.091 [pool-2-thread-6] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.091 [pool-2-thread-27] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.103 [pool-2-thread-8] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.103 [pool-2-thread-8] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.103 [pool-2-thread-28] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.192 [pool-2-thread-27] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:46.193 [pool-2-thread-27] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.193 [pool-2-thread-22] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.204 [pool-2-thread-28] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.204 [pool-2-thread-28] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.204 [pool-2-thread-3] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.294 [pool-2-thread-22] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:46.294 [pool-2-thread-22] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.294 [pool-2-thread-37] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.305 [pool-2-thread-3] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.305 [pool-2-thread-3] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.305 [pool-2-thread-32] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.395 [pool-2-thread-37] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:46.395 [pool-2-thread-37] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.395 [pool-2-thread-34] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.406 [pool-2-thread-32] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.406 [pool-2-thread-32] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.406 [pool-2-thread-31] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.495 [pool-2-thread-34] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:46.495 [pool-2-thread-34] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.496 [pool-2-thread-2] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.506 [pool-2-thread-31] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.506 [pool-2-thread-31] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.507 [pool-2-thread-14] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.597 [pool-2-thread-2] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:46.597 [pool-2-thread-2] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.597 [pool-2-thread-29] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.608 [pool-2-thread-14] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.608 [pool-2-thread-14] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.608 [pool-2-thread-7] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.698 [pool-2-thread-29] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:46.698 [pool-2-thread-29] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.698 [pool-2-thread-18] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.709 [pool-2-thread-7] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.709 [pool-2-thread-7] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.709 [pool-2-thread-17] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.799 [pool-2-thread-18] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:46.799 [pool-2-thread-18] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.799 [pool-2-thread-36] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.810 [pool-2-thread-17] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.810 [pool-2-thread-17] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.811 [pool-2-thread-25] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.899 [pool-2-thread-36] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:46.899 [pool-2-thread-36] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.899 [pool-2-thread-10] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:46.911 [pool-2-thread-25] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:46.911 [pool-2-thread-25] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:46.911 [pool-2-thread-33] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:47.000 [pool-2-thread-10] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:47.000 [pool-2-thread-10] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:47.001 [pool-2-thread-11] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:47.012 [pool-2-thread-33] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:47.012 [pool-2-thread-33] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:47.013 [pool-2-thread-23] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:47.102 [pool-2-thread-11] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:47.102 [pool-2-thread-11] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:47.102 [pool-2-thread-16] INFO  com.epam.pool.ConnectionPoolTest - working with connection...
+2019-02-05 20:14:47.114 [pool-2-thread-23] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1048031854
+2019-02-05 20:14:47.114 [pool-2-thread-23] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
+2019-02-05 20:14:47.203 [pool-2-thread-16] INFO  com.epam.pool.ConnectionPoolTest - release connection: 1279459185
+2019-02-05 20:14:47.203 [pool-2-thread-16] INFO  com.epam.pool.impl.BasicConnectionPool - releaseConnection()
